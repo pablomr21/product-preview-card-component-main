@@ -19,11 +19,14 @@ max-width: 700px;
 margin-inline: auto;
 margin: 5rem auto;
 background-color: hsl(0, 0%, 100%) ;
+border-radius: 10px 10px 10px 10px;
 }
+
+
 
 img{
     max-width: 100%;
-    border-radius: 10px 0px 0px 10px;
+
    }
 
 h2{
@@ -31,8 +34,34 @@ h2{
     font-size: 0.8rem;
   font-weight: 400;
   font-style: normal;
-  margin: 20px;
-  letter-spacing: 3px;
-  color:hsl(228, 12%, 48%)
+  margin: 25px  10px;
+  letter-spacing: 3.5px;
+  color:hsl(228, 12%, 48%);
 }
 
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 10px;
+}
+
+p{
+    margin: 25px 10px;
+    font-family: "montserrat", sans-serif;
+    font-size: 0.9rem;
+    color:hsl(228, 12%, 48%);
+}
+
+/*------Fonts----------*/
+/*.fraunces-<uniquifier> {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+*/
